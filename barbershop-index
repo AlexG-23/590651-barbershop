@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Барбершоп</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navigation">
+      <ul class="main-menu">
+        <li><a>Информация</a></li>
+        <li><a>Новости</a></li>
+        <li><a>Прайс-лист</a></li>
+        <li><a>Магазин</a></li>
+        <li><a>Контакты</a></li>
+      </ul>
+      <ul class="profile-menu">
+        <li><button>Вход</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about">
+      <div class="emblem"></div>
+      <div>
+        <span class="feature">Быстро</span>
+        <p class="feature-description">Мы делаем свою работу быстро! Два часа пролетят назаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+      </div>
+      <div>
+        <span class="feature">Круто</span>
+        <p class="feature-description">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+      </div>
+      <div>
+        <span class="feature">Дорого</span>
+        <p class="feature-description">Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+      </div>
+    </section>
+    <section class="content">
+      <article class="quarter news">
+        <span>Новости</span>
+        <div>
+          <p>Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижкиı</p>
+          <span class="date">11 января</span>
+        </div>
+        <div>
+          <p>В нашей команде пополнение, Борис "Бритва" Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+          <span class="date">18 января</span>
+        </div>
+        <a>Все новости</a>
+        </div>
+        <article class="quarter gallery">
+          <span>Фотогалерея</span>
+          <img>
+          <button>Назад</button>
+          <button>Вперед</button>
+          </div>
+    </section>
+    <section class="contacts">
+      <article class="quarter contact">
+        <span>Контактная информация</span>
+        <div class="adress">
+          <p>Барбершоп "Бородинский"</p>
+          <p>Адрес:г.Санкт-Петербург, Б.Конюшенная, Д.19/8</p>
+          <p>Телефон: +7 (495) 666-02-66</p>
+        </div>
+        <div class="schedule">
+          <p>Время работы:</p>
+          <p>Пн-пт: с 10:00 до 22:00</p>
+          <p>Сб-вс: с 10:00 до 19:00</p>
+        </div>
+        <button>Как проехать</button>
+        <button>Обратная связь</button>
+      </article>
+      <article class="quarter registration">
+        <span>Записаться</span>
+        <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+        <form>
+          <label for="date">Дата</label><input type="text" value="08.10.2017" id="date">
+          <label for="time">Время</label><input type="text" value="10:00" id="time">
+          <label for="name">Ваше имя</label><input type="text" value="Борода" id="name">
+          <label for="phone">Телефон</label><input type="text" value="+7 123 456-78-90" id="phone">
+          <button type="submit">Отправить</button>
+        </form>
+      </article>
+    </section>
+
+  </main>
+</body>
+<footer>
+</footer>
+
+</html>
